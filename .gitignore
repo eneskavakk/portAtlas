@@ -16,3 +16,4 @@ tmp/
 .coverage
 node_modules/
 portatlas-connection-inventory.csv
+docs/

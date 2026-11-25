@@ -30,7 +30,7 @@ Fikir basit: OT güvenliği, envanteri bilmeden yapılamaz. Hangi PLC'nin hangi 
 - [Kurulum](#kurulum)
 - [Testler](#testler)
 - [Dizin yapısı](#dizin-yapısı)
-- [Belgeler](#belgeler)
+- [Kaynaklar](#kaynaklar)
 - [Kapsam sınırları](#kapsam-sınırları)
 
 ---
@@ -295,24 +295,13 @@ frontend/
   vendor/         Chart.js 4.6.1 (lisansıyla)
 scripts/          manage.py (init, demo, ot-demo, create-admin, backup), seed_ot.py
 tests/            test_core.py, test_ot.py, Node testleri
-docs/             ürün, teknik ve karar belgeleri
 ```
 
 ---
 
-## Belgeler
+## Kaynaklar
 
-| Belge | İçerik |
-| --- | --- |
-| [OT güvenlik sprinti](docs/07_OT_SPRINTI.md) | Zone/conduit, SL-A/SL-T kuralları, kontrol akışı ve kavramsal kaynaklar |
-| [Ürün gereksinimleri](docs/02_URUN_GEREKSINIMLERI.md) | Modüller, ekranlar, kurallar, kabul ölçütleri |
-| [Teknik yaklaşım](docs/03_TEKNIK_YAKLASIM.md) | Mimari, veri modeli, SQLite bütünlüğü |
-| [Kararlar ve açık konular](docs/05_KARARLAR.md) | Kesin kararlar, kütüphane kararları, saha soruları |
-| [Geliştirme durumu](docs/06_GELISTIRME_DURUMU.md) | Uygulanan işler ve doğrulama kanıtı |
-| [Kod savunma rehberi](docs/08_KOD_SAVUNMA_REHBERI.md) | Ekran → dosya → API → tablo haritası ve akışlar |
-| [Kaynak incelemesi](docs/01_KAYNAK_INCELEMESI.md) · [Teslim planı](docs/04_TESLIM_PLANI.md) | Başlangıç analizi ve iş planı |
-
-Dış kaynaklar: [IEC 62443-3-2](https://webstore.iec.ch/en/publication/30727), [ISA 62443-3-3 önizlemesi](https://www.isa.org/getmedia/d73509e9-b626-4709-a406-be6fc7616b79/ISA-62443-3-3_Preview.pdf), [Cisco IEC 62443 açıklaması](https://www.cisco.com/c/en/us/td/docs/solutions/Verticals/IoT_Security_Lab/IEC62443_WP.html).
+Kavramsal kaynaklar: [IEC 62443-3-2](https://webstore.iec.ch/en/publication/30727), [ISA 62443-3-3 önizlemesi](https://www.isa.org/getmedia/d73509e9-b626-4709-a406-be6fc7616b79/ISA-62443-3-3_Preview.pdf), [Cisco IEC 62443 açıklaması](https://www.cisco.com/c/en/us/td/docs/solutions/Verticals/IoT_Security_Lab/IEC62443_WP.html).
 
 ---
 
@@ -324,5 +313,5 @@ Bu proje dürüst olmayı hedefler; yapmadıkları:
 - **Otomatik risk → SL üretimi yoktur.**
 - **Canlı ağ taraması, firewall kuralı uygulama veya cihaz yapılandırması yoktur.** Conduit kaydı gerçek bir bağlantı veya uygulanmış kural iddiası değildir.
 - SL-C (ürün kapasitesi) tutulmaz.
-- Henüz yok: kontrollü toplu CSV aktarımı, dosya/fotoğraf kanıtı yükleme, kontrol şablonu düzenleme, gelişmiş kullanıcı yönetimi, parola yenileme, risk kayıtları ve kanıt matrisi (bkz. [yol haritası](docs/07_OT_SPRINTI.md#sıradaki-ürün-önerileri)).
+- Henüz yok: kontrollü toplu CSV aktarımı, dosya/fotoğraf kanıtı yükleme, kontrol şablonu düzenleme, gelişmiş kullanıcı yönetimi, parola yenileme, risk kayıtları ve kanıt matrisi.
 - Yeni OT ekranlarının tarayıcı görsel kabulü ve gerçek saha pilotu yapılmamıştır.
