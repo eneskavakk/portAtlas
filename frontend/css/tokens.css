@@ -1,0 +1,3 @@
+
+/* Paylaşılan tasarım tokenları; ana stil dosyasıyla uyumlu renk ve font tanımları. */
+:root{--background:#f4f7f8;--text:#203b46;--muted:#6c818a;--accent:#087c7b;--navy:#102c37;--border:#dfe7e9;--danger:#a44736;--font:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;--mono:"SFMono-Regular",Consolas,"Liberation Mono",monospace}

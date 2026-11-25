@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+# Avoid Anaconda readline crash when pytest imports its optional pdb plugin.
+addopts = "-p no:debugging"

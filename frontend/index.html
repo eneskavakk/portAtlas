@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102c37">
+  <meta name="description" content="PortAtlas endüstriyel bağlantı ve müdahale yönetimi">
+  <title>PortAtlas · Bağlantı ve Müdahale Yönetimi</title>
+  <!-- Şeffaf marka simgesi ve sürümlü CSS/JS adresleri; yeni arayüzün eski önbellekten gelmesini azaltır. -->
+  <link rel="icon" href="/static/assets/portatlas-icon.png?v=i18n-1" type="image/png">
+  <link rel="stylesheet" href="/static/css/app.css?v=i18n-1">
+  <link rel="stylesheet" href="/static/css/ot.css?v=i18n-1">
+  <!-- Onaylı Chart.js önce yüklenir; uygulama kendi ES modülleriyle başlatılır. -->
+  <script src="/static/vendor/chart.umd.js" defer></script>
+  <script src="/static/js/app.js?v=i18n-1" type="module"></script>
+</head>
+<body>
+  <!-- Klavye kullanıcıları menüyü atlayabilir; uygulama ekranları #app içine yerleştirilir. -->
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <div id="app"><div class="initial-loading" role="status">PortAtlas açılıyor…</div></div>
+  <!-- İşlem bildirimleri ve ortak form penceresi ekranlar arasında yeniden kullanılır. -->
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+</body>
+</html>
